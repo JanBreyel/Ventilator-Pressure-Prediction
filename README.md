@@ -216,7 +216,7 @@ kaggle_mae = errors[mask].mean()
 
 **Trainingsverlauf:**
 
-![Trainingsverlauf]([images/training_curve.png](https://github.com/JanBreyel/Ventilator-Pressure-Prediction/blob/main/training_curve.png))
+![Trainingsverlauf](https://github.com/JanBreyel/Ventilator-Pressure-Prediction/blob/main/training_curve.png)
 
 **Einordnung des Verlaufs:**
 
