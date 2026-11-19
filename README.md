@@ -287,11 +287,7 @@ python main.py
 
 ```
 ventilator-pressure-prediction/
-├── main.py                      # kompletter Ablauf: Laden → Features → Training → Submission
-├── requirements.txt
-├── README.md
-├── images/
-│   └── training_curve.png       # Trainingsverlauf
+├── CNN + Bidirectinoal GRU.py   # kompletter Ablauf
 ├── train.csv                    # (nicht im Repo – von Kaggle laden)
 ├── test.csv                     # (nicht im Repo – von Kaggle laden)
 ├── best_pressure.keras          # (wird erzeugt)
