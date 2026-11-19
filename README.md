@@ -222,7 +222,7 @@ kaggle_mae = errors[mask].mean()
 
 - Training und Validierung sinken stetig und ohne Instabilität – es gibt keine Anzeichen für Overfitting.
 - Der Validation-MAE liegt unter dem Training-MAE. Das ist hier plausibel: Der Training-MAE wird über die jeweilige Epoche gemittelt, während Dropout (0.15) aktiv ist. Die Validierung läuft mit deaktiviertem Dropout und mit den Gewichten am Epochenende.
-- Die Kurven fallen bis zur letzten Epoche weiter leicht ab. Das Modell ist also noch nicht vollständig ausgelernt, und der MAE-Wert ist verbesserungsfähig (siehe [Einschränkungen & mögliche Verbesserungen](#einschränkungen--mögliche-verbesserungen)).
+- Die Kurven fallen bis zur letzten Epoche weiter leicht ab. Das Modell scheint noch nicht vollständig ausgelernt, und der MAE-Wert ist verbesserungsfähig (siehe [Einschränkungen & mögliche Verbesserungen](#einschränkungen--mögliche-verbesserungen)). Nach weiteren Tests mit Epochen = 100 ergibt sich, dass 50 Epochen das genaue Ende sind nach denen Der MAE-Wert wieder steigt.
 
 ---
 
