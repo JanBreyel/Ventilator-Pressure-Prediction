@@ -344,9 +344,8 @@ Ehrliche Einordnung des aktuellen Stands: Der Validation-MAE von 0,6651 ist noch
 
 - **Kombination mehrerer Kaggle-Kurse** (Datenaufbereitung, Feature Engineering, Deep Learning) in einem durchgängigen Projekt
 - Aufbau einer vollständigen **Deep-Learning-Pipeline für Zeitreihen** – von Rohdaten bis zur Kaggle-Abgabe
-- **Feature Engineering mit `groupby`** auf großen Datensätzen (Millionen Zeilen)
+- **Feature Engineering mit `groupby`** auf großen Datensätzen
 - Umgang mit **Sequenz-zu-Sequenz-Regression** mit `Conv1D` und `Bidirectional GRU`
-- Einsatz von **Sample-Weights und maskierten Metriken**, um das Training an die Wettbewerbsmetrik anzupassen
 - **Vermeidung von Data Leakage** durch gruppenbasierte Splits
 - Einsatz von **Keras-Callbacks** (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint)
 - Robuste Pipelines durch **Validierungs- und Konsistenzprüfungen** im Code
